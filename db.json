@@ -1659,8 +1659,77 @@
 		}
 	],
 	"componentData": {
-		"Navbar": false,
-		"Footer": true,
-		"VersionTable": true
-	}
+    "componentOrder": [
+        "Container",
+        "Section",
+        "Navbar",
+        "Text",
+        "H1",
+        "Footer"
+    ],
+    "isComponentEnable": [
+        {
+            "enabled": true
+        },
+        {
+            "enabled": true
+        },
+        {
+            "enabled": true
+        },
+        {
+            "enabled": true
+        },
+        {
+            "enabled": true
+        },
+        {
+            "enabled": true
+        }
+    ],
+    "Footer": {
+        "enabled": true,
+        "props": {
+            "text": "Hello Footer"
+        }
+    },
+    "Navbar": {
+        "enabled": true,
+        "props": {
+            "text": "Hello Navbar!"
+        }
+    },
+    "Text": {
+        "enabled": true,
+        "props": {
+            "text": "Hello P Tag"
+        }
+    },
+    "VersionTable": {
+        "enabled": true,
+        "props": {
+            "city": "Delhi"
+        }
+    },
+    "H1": {
+        "enabled": true,
+        "props": {
+            "text": "Hello H1"
+        }
+    },
+    "theme": {
+        "global": {
+            "body": {
+                "bg": "white"
+            },
+            "h1": {
+                "color": "black",
+                "fontSize": "2em"
+            },
+            "p": {
+                "fontSize": "16"
+            }
+        }
+    }
+}
 }
